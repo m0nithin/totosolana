@@ -1,0 +1,115 @@
+.elementor-kit-6 {
+    --e-global-color-primary: #6EC1E4;
+    --e-global-color-secondary: #000000;
+    --e-global-color-text: #000000;
+    --e-global-color-accent: #E4F104;
+    --e-global-color-29a3467: #03BBD5;
+    --e-global-typography-primary-font-family: "Super Cereal";
+    --e-global-typography-primary-font-size: 40px;
+    --e-global-typography-primary-font-weight: 400;
+    --e-global-typography-primary-line-height: 50px;
+    --e-global-typography-secondary-font-family: "Super Cereal";
+    --e-global-typography-secondary-font-size: 60px;
+    --e-global-typography-secondary-font-weight: 400;
+    --e-global-typography-secondary-line-height: 70px;
+    --e-global-typography-text-font-family: "Super Cereal";
+    --e-global-typography-text-font-size: 20px;
+    --e-global-typography-text-font-weight: 400;
+    --e-global-typography-text-line-height: 30px;
+    --e-global-typography-text-letter-spacing: 1px;
+    --e-global-typography-accent-font-family: "Super Cereal";
+    --e-global-typography-accent-font-size: 25px;
+    --e-global-typography-accent-font-weight: 400;
+    --e-global-typography-accent-line-height: 35px;
+    background-color: #03BBD5;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1500px;
+}
+
+.e-con {
+    --container-max-width: 1500px;
+}
+
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+
+{}
+
+h1.entry-title {
+    display: var(--page-title-display);
+}
+
+.elementor-kit-6 e-page-transition {
+    background-color: var( --e-global-color-29a3467);
+}
+
+.site-header {
+    padding-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+@media(max-width:1024px) {
+    .elementor-kit-6 {
+        --e-global-typography-primary-font-size: 28px;
+        --e-global-typography-primary-line-height: 38px;
+        --e-global-typography-secondary-font-size: 50px;
+        --e-global-typography-secondary-line-height: 60px;
+        --e-global-typography-accent-font-size: 20px;
+        --e-global-typography-accent-line-height: 30px;
+    }
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 1024px;
+    }
+    .e-con {
+        --container-max-width: 1024px;
+    }
+}
+
+@media(max-width:880px) {
+    .elementor-kit-6 {
+        --e-global-typography-text-font-size: 18px;
+        --e-global-typography-text-line-height: 28px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-section.elementor-section-boxed>.elementor-container {
+        max-width: 767px;
+    }
+    .e-con {
+        --container-max-width: 767px;
+    }
+}
+
+@media(min-width:1920px) {
+    .elementor-kit-6 {
+        --e-global-typography-primary-font-size: 50px;
+        --e-global-typography-primary-line-height: 60px;
+        --e-global-typography-secondary-font-size: 90px;
+        --e-global-typography-secondary-line-height: 100px;
+        --e-global-typography-text-font-size: 30px;
+        --e-global-typography-text-line-height: 40px;
+        --e-global-typography-accent-font-size: 28px;
+        --e-global-typography-accent-line-height: 38px;
+    }
+}
+
+/* Start Custom Fonts CSS */
+
+@font-face {
+    font-family: 'Super Cereal';
+    font-style: normal;
+    font-weight: normal;
+    font-display: auto;
+    src: url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.eot');
+    src: url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.eot?#iefix') format('embedded-opentype'), url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.woff2') format('woff2'), url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.woff') format('woff'), url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.ttf') format('truetype'), url('https://hoppycoin.xyz/wp-content/uploads/2024/02/SuperCereal.svg#SuperCereal') format('svg');
+}
+
+/* End Custom Fonts CSS */
